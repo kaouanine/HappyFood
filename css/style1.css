@@ -1,0 +1,24 @@
+
+.category-img{
+    width: 40px;
+    height: 40px;
+    padding: 12px;
+    
+}
+.list-category a{
+    text-align: center !important;
+    font-weight: bold;
+    font-size: 15px;
+    text-decoration: none;
+    color: black;
+
+
+}
+#t3{height: 5000px ;  width: fit-content;background-color: rgb(179, 255, 0); }
+#t5{height: 5000px ;  width: fit-content;background-color: rgb(255, 123, 0); }
+#t2{display: flex;}
+#a{height: 400px; background-color: crimson};
+#c{height: 600px; background-color: darkcyan};
+#b{height: 500px; background-color: darkgreen};
+
+

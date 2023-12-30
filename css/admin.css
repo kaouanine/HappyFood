@@ -1,0 +1,238 @@
+/* 
+    Author: Vijay Thapa;
+    Theme: Food Order Website Admin;
+    Version: 1.0;
+*/
+.notification_msg{ 
+    animation: css 0s 3s forwards; }
+
+    @keyframes css  { to { visibility: hidden;width: 0;height: 0;} }
+body::-webkit-scrollbar {
+    display: none;
+}
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.wrapper{
+    padding: 1%;
+    width: 80%;
+    margin: 0 auto;
+}
+.menu_ul{
+    display: flex;
+    justify-content: center;
+}
+
+.text-center{
+    text-align: center;
+}
+
+.clearfix{
+    float: none;
+    clear: both;
+}
+
+.tbl-full{
+    width: 100%;
+}
+.tbl-30{
+    width: 30%;
+}
+
+table tr th{
+    border-bottom: 1px solid rgb(196, 119, 119);
+    padding: 1%;
+    text-align: left;
+}
+
+table tr td{
+    padding: 1%;
+}
+
+.btn-primary{
+    background-color: #1e90ff;
+    padding: 1%;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+.btn-primary:hover{
+    background-color: #3742fa;
+}
+
+.btn-secondary{
+    background-color: #96dfad;
+    padding: 1%;
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+}
+.btn-secondary:hover{
+    background-color: #2ed573;
+}
+
+.btn-danger{
+    background-color: #ff6b81;
+    padding: 1%;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+.btn-danger:hover{
+    background-color: #ff4757;
+}
+
+.success{
+    color: #2ed573;
+}
+.error{
+    color: #ff4757;
+}
+
+
+/* CSS for Menu */
+.menu{
+    border-bottom: 3px solid rgb(248, 190, 0);
+    background-color: black;
+   
+}
+.menu ul{
+    list-style-type: none;
+}
+.menu ul li{
+    display: inline;
+    padding: 1%;
+}
+.menu ul li a{
+    text-decoration: none;
+    font-weight: bold;
+    color: #ffffff;
+}
+.menu ul li a:hover{
+    color: #f3af04;
+}
+a{
+    color: rgb(255, 153, 0);
+    
+}
+
+/* CSS for main-content */
+.main-content{
+    background-color: #f1f2f6;
+    padding: 3% 0;
+}
+
+.col-4{
+    width: 100px;
+    height: 100px;
+    background-color: rgb(255, 217, 0);
+    padding: 20px;
+    float: left;
+    color: #000000;
+    text-align: center;
+    border-radius: 39em;
+}
+
+
+.message{
+    background-color: rgba(247, 162, 93, 0.397);
+    width: 100%;
+    display: flex;
+    text-decoration: none ;
+    height: 40px;
+    border: rgba(49, 49, 49, 0.411);
+    border-bottom-style: solid;
+    
+}
+.m{color: black;
+    
+    font-weight: bold;
+    font-family:'Times New Roman', Times, serif;
+    padding: 12px;
+    border-radius: 20px 20px 10px 10px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    
+
+    
+
+}
+
+.title_msg{
+        margin-bottom:100px ;
+        
+}
+.msg_detail{
+    display:flex;
+    justify-content: center;
+    padding-top: 100px ;
+
+}
+.all-info-costomer{
+    background-color: rgb(255, 255, 255);
+    width: 60%;
+    padding: 20px;
+    border-radius: 10px;
+
+}
+
+
+
+
+/* CSS for Footer */
+.footer{
+    background-color: #000000;
+    color: white;
+}
+
+/* CSS for Login */
+.login{
+    background-color: rgba(35, 33, 131, 0.226);
+    width: 300px;
+    margin: 10% auto;
+    padding: 4%;
+    border-radius: 30px;
+}
+input{
+    background-color: rgba(75, 73, 73, 0.397);
+    width: 250px;
+    height: 30px;
+    margin-top: 10px;
+    border: none;
+    border-radius: 5px;
+    padding-left: 7px;
+}
+.ball{
+    display: flex;
+    justify-content: space-around;
+}
+@media only screen and (max-width:728px){
+
+    .btn-secondary{
+        font-size: 10px;
+    }
+    .btn-danger{
+        
+        word-wrap: none;
+        font-size: 10px;
+    }
+    a{
+        font-size: 10px;
+
+
+        
+    }
+    .dashbord_text{
+        font-size: 19px;
+        
+    }
+    .col-4{
+        width: 80px;
+        height: 80px;
+        padding: 3%;
+    }
+}

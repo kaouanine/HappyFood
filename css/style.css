@@ -1,0 +1,596 @@
+/* 
+    Author: Vijay Thapa;
+    Theme: Restaurant Food Order;
+    version: 1.0;
+*/
+
+/* CSS for All */
+.notification_msg{ 
+
+    animation: css 0s 2s forwards; }
+
+    @keyframes css  { to { visibility: hidden;width: 0;height: 0;} }
+body::-webkit-scrollbar {
+    display: none;
+}
+body {
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;  /* Firefox */
+  }
+  
+*{  
+    margin: 0 0;
+    padding: 0 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.container2{
+    display: block;
+    width: 80%;
+    margin-top: 100px;
+    
+    
+}
+.container{
+    width: 80%;
+    margin: 0 auto;
+    padding: 1%;
+   
+}
+.img-responsive{
+    width: 200px;
+    height: 180px;
+}
+.img-curve{
+    border-radius: 12px 12px 0px 0px;
+}
+
+.text-right{
+    text-align: right;
+}
+.text-center{
+    text-align: center;
+    color: black ;
+    width: 100%;
+}
+.text-left{
+    text-align: left;
+}
+.text-white{
+    color: white;
+}
+
+.clearfix{
+    clear: both;
+    float: none;
+}
+
+a{
+    color: #000000;
+    text-decoration: none;
+}
+a:hover{
+    color: coral !important;
+}
+
+
+.btn{
+    padding: 1%;
+    border: none;
+    font-size: 1rem;
+    border-radius: 5px;
+}
+.btn-primary{
+    background-color: #ff6b81;
+    color: white;
+    cursor: pointer;
+}
+.btn-primary:hover{
+    color: white;
+    background-color: #ff4757;
+}
+h2{
+    color: #2f3542;
+    font-size: 2rem;
+    margin-bottom: 2%;
+}
+h3{
+    font-size: 1.5rem;
+}
+.float-container{
+    position: relative;
+}
+.float-text{
+    position: absolute;
+    bottom: 50px;
+    left: 40%;
+}
+fieldset{
+    margin: 5%;
+    padding: 3%;
+    border: none;
+    width: 100%;
+}
+
+.error{
+    padding: 2%;
+    color: red;
+}
+.success{
+    padding: 2%;
+    color: green;
+}
+
+
+/* CSSS for navbar section */
+.navbar{
+    z-index: 1000;
+    background-color: rgb(34, 37, 37);
+    height: 63px;
+}
+.logo-img{
+width: 140px;
+
+}
+.logo{
+    width: 10%;
+    height: 50px;
+    float: left;
+}
+.menu{
+    
+    line-height: 40px;
+    
+}
+.menu ul{
+    list-style-type: none;
+}
+
+.menu ul li{
+    padding: 1%;
+    display: inline;
+}
+
+
+/* CSS for Food SEarch Section */
+
+.food-search{
+    background-image: url(../images/bg2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 510px;
+    padding: 7% 0;
+    z-index: 0;
+    
+    
+}
+
+.food-search input[type="search"]{
+    width: 50%;
+    padding: 1%;
+    font-size: 1rem;
+    border: none;
+    border-radius: 5px;
+    background-color: rgba(209, 209, 209, 0.911);
+    color: black;
+}
+
+
+/* CSS for Categories */
+.categories{
+    padding: 4% 0;
+}
+
+.box-3{
+    width: 28%;
+    float: left;
+    margin: 2%;
+}
+
+
+/* CSS for Food Menu */
+
+.food-menu{
+    background-color: #2222223a;
+    display: flex;
+    justify-content: center;
+    padding-top:2% ;
+   
+    
+}
+.food-menu-box:hover{
+    transform: scale(1.1); 
+}
+.food-menu-box{
+    width: 200px;
+    height:  250px;
+    margin: 3%;
+    
+    float: left;
+    background-color: rgb(255, 255, 255);
+    border-radius:  10px;
+    color: rgb(0, 0, 0);
+}
+
+.food-menu-img{
+  
+
+}
+
+.food-menu-desc{
+    width: 100%;
+    float: left;
+    margin-left: 5%;
+    margin-top: 2%;
+}
+
+.food-price{
+    font-size:1.3em;
+    font-weight: bold;
+    margin: 1% 0;
+    color: rgb(18, 150, 6);
+
+}
+.food-detail{
+    font-size: 1rem;
+    color: #747d8c;
+}
+.ordre-number{
+    color: rgb(243, 2, 2);
+}
+
+/* CSS for Social */
+.social ul{
+    list-style-type: none;
+}
+.social ul li{
+    display: inline;
+    padding: 1%;
+}
+
+/* for Order Section */
+.order{
+    width: 900px;
+    margin: 0 auto;
+    display: flex;
+
+}
+.input-responsive{
+    width: 96%;
+    padding: 1%;
+    margin-bottom: 3%;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+.order-label{
+    margin-bottom: 1%; 
+    font-weight: bold;
+    color: white;
+}
+.btn1{
+    padding: 10px;
+    padding: 2%;
+    border: none;
+    border-radius: 7px;
+    text-align: left !important;
+
+}
+
+
+
+
+.social{
+    padding-top: 83px;
+    padding-bottom: 30px;
+    width: 100%;
+    height: 200px;
+    display: flex ;  
+    justify-content: space-between ;
+    
+}
+.footer-parent-1{
+    width: 30%;    
+    height: fit-content;
+    text-align: center;
+}
+.logo-footer{
+    width: 200px;
+margin-left: 40px;
+}
+.reseau-social-ul{
+    display: block;
+    margin-left: 54px;
+
+}
+
+.footer-parent-2{
+    margin-top: 20px;
+    width: 30%;
+    height: fit-content;
+    display: block;
+    text-align: center;
+}
+.footer-parent-3{
+    margin-top: 20px;
+    width: 30%;
+    height: fit-content;
+    display: block;
+    text-align: center;
+}
+.footer{
+
+text-align: center;
+padding-bottom: 12px;
+
+}
+/* contact-page*/
+.cont{
+    margin-left: 33px;
+    height: 30px;
+}
+.contact-input1{
+    background-color: rgba(0, 0, 0, 0.664);
+    display: flex;
+    justify-content: center;
+    height: 100%;
+
+}
+.input-responsive{
+    background-color: rgba(209, 209, 209, 0.911);
+    
+}
+/*Category bar*/
+
+.list-category{
+    margin-top: 0px;
+    padding-bottom: 30px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    height:50px;
+}
+
+.category-item{
+
+border-radius: 0.1em;
+}
+.category-img{
+    width: 50px;
+    height: 50px;
+    padding: 12px;
+    
+}
+.list-category a{
+    text-align: center !important;
+    font-weight: bold;
+    font-size: 25px;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+
+
+}
+.category-item :hover{
+    padding-bottom: 12px;
+    padding-top: 12px;
+    background-color: #F1C40F;
+    color: #1121fc;
+    border-radius: 0px 0px 10px 10px;
+    
+
+    
+
+
+}
+
+
+.partenair{
+    height: 200px;
+    background-color: aquamarine;
+    display: flex;
+    justify-content: space-around;
+    
+}
+.partenaire-img{
+
+    margin-top: 40px;
+   
+    border-radius: 2em;
+    width: 100px;
+    height: 100px;
+}
+.title-partenaire{
+    text-align: center;
+    width: 100%;
+    height: 60px;
+    padding-top: 20px;
+    background-color: aquamarine;
+
+}
+/* CSS for Mobile Size or Smaller Screen */
+
+@media only screen and (max-width:728px){
+    .logo{
+        width: 80%;
+        float: none;
+        margin: 1% auto;
+        text-align: center;
+
+    }
+    .navbar{
+     
+        height: 110px;}
+
+    .menu ul{
+        text-align: center;
+    }
+
+    .food-search input[type="search"]{
+        width: 90%;
+        padding: 2%;
+        margin-bottom: 3%;
+    }
+
+    .btn{
+        width: 91%;
+        padding: 2%;
+    }
+    .img-responsive{
+        width: 110px;
+        height: 100px;
+    }
+    .img-curve{
+        border-radius: 12px 12px 0px 0px;
+    }
+    .food-menu{
+        background-color: #2222223a;
+        display: flex;
+        justify-content: center;
+        padding-top:2% ;
+    }
+    .container2{
+        width: 100%;
+        margin-top: 0px;
+    }
+    .food-menu-box{
+        width: 250px;
+        height: 100px;
+        margin: 3%;
+        display: flex;
+        padding: 2%;        
+        
+    }
+    .partenaire-img{
+
+        margin-top: 40px;
+       
+        border-radius: 2em;
+        width: 80px;
+        height: 80px;
+    }
+    .food-search{
+        padding: 10% 0;
+    }
+
+    .categories{
+        padding: 20% 0;
+    }
+    h2{
+        margin-bottom: 10%;
+    }
+    .box-3{
+        width: 100%;
+        margin: 4% auto;
+    }
+
+    .food-menu{
+        padding: 20% 0;
+    }
+
+    .food-menu-box{
+       
+    }
+    .social{
+        padding: 5% 0;
+    }
+    .order{
+        width: 100%;
+    }
+    
+/*Category bar*/
+
+.list-category{
+    margin-top: 0px;
+    padding-bottom: 30px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    height:50px;
+}
+
+.category-item{
+
+border-radius: 0.1em;
+}
+.category-img{
+    width: 30px;
+    height: 30px;
+    padding: 6px;
+    
+}
+.list-category a{
+    text-align: center !important;
+    font-weight: bold;
+    font-size: 12px;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+
+
+}
+.category-item :hover{
+    padding-bottom: 12px;
+    padding-top: 12px;
+    background-color: #F1C40F;
+    color: #1121fc;
+    border-radius: 0px 0px 10px 10px;
+    
+
+    
+
+
+}
+
+.all_social{
+    display: flex;
+    justify-content: space-around;
+    
+    
+
+}
+
+.social{
+    display: block;
+    height: 400px;
+    width: 300px;
+}
+
+
+
+.footer-parent-1{
+    height: fit-content;
+    text-align: center;
+    width: 300px;
+    
+}
+.logo-footer{
+    width: 170px;
+    margin-right: 7%;
+}
+.reseau-social-ul{
+    display: flex;
+    justify-content: center;
+    margin-right: 9%;
+   
+
+}
+
+.footer-parent-2{
+    margin-top: 20px;
+    width: 300px;
+    height: fit-content;
+    display: block;
+    text-align: center;
+}
+.footer-parent-3{
+    margin-top: 20px;
+    width: 300px;
+    height: fit-content;
+    display: block;
+    text-align: center;
+}
+.footer{
+
+text-align: center;
+padding-bottom: 12px;
+
+}
+}
